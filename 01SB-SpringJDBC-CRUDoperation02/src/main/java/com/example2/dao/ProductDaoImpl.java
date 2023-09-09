@@ -49,6 +49,6 @@ public class ProductDaoImpl implements ProductDao {
 		return jdbctemplate.update("DELETE FROM Product WHERE productId=?", productId);
 	}
 	
-	
+	//third update
 
 }
