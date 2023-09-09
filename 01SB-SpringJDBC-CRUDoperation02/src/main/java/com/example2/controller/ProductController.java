@@ -50,6 +50,7 @@ public class ProductController {
 	@DeleteMapping("/producti/{productId}")
 	public String deleteProduct(@PathVariable int productId){
 		return productservice.deleteProduct(productId)+" Product deleted !!";
+		//hellooo wooorld
 	}
 
 }
