@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.bean.InsertPersonReq;
 import com.example.service.PersonService;
-
+//i dont nknojkjdslkfjlkdsjf
 @RestController
 public class PersonController {
 	@Autowired
