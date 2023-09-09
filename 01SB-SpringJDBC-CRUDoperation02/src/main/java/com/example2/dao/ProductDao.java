@@ -8,7 +8,7 @@ import com.example2.model.Product;
 public interface ProductDao {
 
 	List<Product> findAllprod();
-
+    //hello this is productDao
 	Product findById(int productId);
 
 	int addProd(Product p);
